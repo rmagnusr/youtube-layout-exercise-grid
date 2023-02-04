@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.container {
+  background-color: aliceblue;
+  display: grid;
+  gap: 20px;
+  padding: 33px 0px 0px 35px;
+  height: 415px;
+  max-width: 900px;
+  top: -5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  grid:
+    'video advertising' 56px
+    'video other-video' 56px
+    'video other-video2' 56px
+    'video other-video3' 56px / 543px 271.5px;
+}
+
+.video {
+  grid-area: video;
+}
+
+.video-title {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.views {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.description {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.advertising {
+  grid-area: advertising;
+}
+
+.other-video {
+  grid-area: other-video;
+  display: flex;
+}
+
+.other-video2 {
+  grid-area: other-video2;
+  display: flex;
+}
+
+.other-video3 {
+  grid-area: other-video3;
+  display: flex;
+}
+
+ul li {
+  font-size: 11px;
+  padding: 0.5% 5px;
+}
+ul li a {
+  font-size: 14px;
+  font-weight: 700;
+}
